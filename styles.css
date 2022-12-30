@@ -1,0 +1,75 @@
+body {
+  padding: 0vh 15vw 0vh 15vw;
+  margin: 0 0 0 0;
+  background-color: black;
+}
+
+.item {
+  padding: 2vh 2vw 2vh 2vw;
+}
+
+.item.welcome-text {
+  color: black;
+}
+
+.item.form {
+  padding: 0 0 0 0;
+  background-color: white;
+}
+
+h1 {
+  font-size: xxx-large;
+  color: white;
+  text-align: center;
+  padding: 0vh 5vw 0vh 5vw;
+}
+
+.logo {
+  position: relative;
+  top: 30vh;
+  height: auto;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.container {
+  margin: 0 0 0 0;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-container.one {
+  height: 100vh;
+  width: auto;
+  background-image: url("res/alina-grubnyak-ZiQkhI7417A-unsplash.jpg");
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-container.two {
+  height: 100vh;
+  width: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  color: rgba(54,54,54,0.75)
+}
+
+figcaption {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 100%;
+  color: white;
+  position: relative;
+  top: 95vh;
+  font-size: x-small;
+  text-align: center;
+}
+
+figcaption a {
+  color: white;
+}
+
