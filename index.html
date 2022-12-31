@@ -2,34 +2,24 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kontaktaufnahme Marco Zander</title>
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
-  <link href="styles.css" rel="stylesheet" type="text/css"></head></head>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
 <body>
 <div class="container">
   <div class="inner-container one">
-    <figure>
-      <figcaption>Foto von <a href="https://unsplash.com/@alinnnaaaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alina Grubnyak</a> auf <a href="https://unsplash.com/photos/ZiQkhI7417A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></figcaption>
-    </figure>
     <div class="logo"><h1>Marco Zander</h1></div>
   </div>
   <div class="inner-container two">
     <div class="item welcome-text">
-      <p>Hi!</p>
-      <p>Ich schreibe gerne, manchmal Code.</p>
-      <p>Was hilft mir dabei?
-        <ul>
-          <li>gute 7 Jahre Blogging-Erfahrung (auf medium.com und marcozander.com),</li>
-          <li>enge Zusammenarbeit mit Entwickler:innen an kommerziellen Produkten,</li>
-          <li>Entwickeln eigener kleiner Projekte (siehe https://github.com/Himynameismarco) mit Java, JavaScript, HTML und CSS,</li>
-          <li>BWL-, Philosophie-, sowie Informatik-Studium an der LMU,</li>
-          <li>verhandlungssichere Englisch- und grundlegende Russisch-Kenntnisse,</li>
-          <li>Neugier und die Offenheit Neues, auch neue Programmiersprachen zu lernen</li>
-          <li>sowie Interesse an meinen Kolleg:innen (auch als Menschen).</li>
-        </ul>
-
-        Ich arbeite lieber mit kleinen und mittleren als großen Unternehmen zusammen.</p>
+      <h2>GET IN TOUCH</h2>
+      <p>Wenn du Unterstützung bei der Erstellung von einer Software-Applikation brauchst, schreib mir einfach.
+        Wenn du mehr über meine professionelle Qualifikation wissen willst, schau auf <a href="https://www.linkedin.com/in/marco-zander-b24252b4/">LinkedIn</a> oder <a href="https://github.com/Himynameismarco">GitHub</a> vorbei.
+        Ansonsten habe ich auch noch einen <a href="https://marcozander.com/">persönlichen Blog</a>. </p>
+      <p>Hier unten tue ich so, als könnte man sich irgendwo irgendeinen Account anlegen. There you go: </p>
     </div>
     <div class="item form">
       <form>
@@ -37,24 +27,36 @@
           <div class="item">
             <p>
               <label for="vorname">VORNAME</label><br>
-              <input type="input" id="vorname" name="vorname" placeholder="Michael">
+              <input type="text" id="vorname" name="vorname" placeholder="Michael">
             </p>
             <p>
               <label for="nachname">NACHNAME</label><br>
-              <input type="input" id="nachname" name="nachname" placeholder="Ende">
+              <input type="text" id="nachname" name="nachname" placeholder="Ende">
+            </p>
+            <p>
+              <label for="password">PASSWORD</label><br>
+              <input type="password" id="password" name="password" placeholder="*********">
             </p>
           </div>
           <div class="item">
             <p>
-              <label for="nachricht">Wie kann ich dir helfen?</label><br>
-              <textarea id="nachricht" name="nachricht" maxlength="250" rows="5"></textarea>
+              <label for="email">EMAIL</label><br>
+              <input type="email" id="email" name="email" placeholder="momo@yourDomain.com">
+            </p>
+            <p>
+              <label for="phone">TELEFONNUMMER</label><br>
+              <input type="tel" id="phone" name="phone" placeholder="+1721234567">
+            </p>
+            <p>
+              <label for="password-confirm">CONFIRM PASSWORD</label><br>
+              <input type="password" id="password-confirm" name="password-confirm" placeholder="*********">
             </p>
           </div>
         </div>
 
         <div class="item">
           <p>
-            <button>Submit</button>
+            <button>Account erstellen</button>
           </p>
         </div>
 
@@ -62,5 +64,6 @@
     </div>
   </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
